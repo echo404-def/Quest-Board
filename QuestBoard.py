@@ -13,10 +13,7 @@ class Processer:
     def read_file(self):
         file = self.entry1.get()
         try:
-            #with open(file,"r") as r:l = r.read()
-            f = open(file,"r")
-            l = f.read()
-            f.close()
+            with open(file,"r") as r:l = r.read()
         except:
             self.label2["text"] = "エラー: ファイルの読込に失敗しました"
             return()
