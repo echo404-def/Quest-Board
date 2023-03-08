@@ -1,4 +1,4 @@
-QuestBoard は、タスク管理アプリケーションです。
+QuestBoard は、タスク管理アプリケーションです。(Windowsでは動作しません)
 タイトルと内容で構成したスケジュールを書いたテキストファイルを読み込ませると、順番に表示されて様々な作業を分かりやすくします。
 
 < 読み込ませるテキストファイルの書き方 >
@@ -7,7 +7,7 @@ QuestBoard は、タスク管理アプリケーションです。
 ・次の予定との間は改行して1行以上空ける。
 
 
-QuestBoard is a task management application. 
+QuestBoard is a task management application. (Does not work on Windows)
 If you load a text file with a schedule composed of titles and contents, it will be displayed in order to make it easier to understand various tasks.
 
 < How to write a text file to be read >
